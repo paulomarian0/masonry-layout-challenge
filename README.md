@@ -3,6 +3,9 @@
 The challenge can be found on this [link](https://github.com/Wiredcraft/test-frontend).
 The challenge is build a simple webpage following [Masonry Layout](https://www.sitepoint.com/understanding-masonry-layout/)
 
+## Deploy
+You can check the project in production [here](https://masonry-layout-challenge-2yuprpbvz-paulomarian0.vercel.app)
+
 ## How to Start the Project
 
 First, run the development server:
