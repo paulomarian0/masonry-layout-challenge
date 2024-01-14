@@ -1,11 +1,11 @@
 import { IPhotoResponseData } from "@/pages/api/photos";
 import Image from "next/image";
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const BASE_API_URL = process.env.NEXT_PUBLIC_BASE_API_URL;
 
 export const Photos = async () => {
   const getPhotos = async () => {
-    const response = await fetch(`${BASE_URL}/photos`);
+    const response = await fetch(`${BASE_API_URL}/photos`);
     const data = await response.json();
     return data;
   };
