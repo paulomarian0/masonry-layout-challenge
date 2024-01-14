@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Photos = async () => {
   const getPhotos = async () => {
-    const response = await fetch("http://localhost:3000/api/photos");
+    const response = await fetch(`${process.env.API_URL}/photos`);
     const data = await response.json();
     return data;
   };
