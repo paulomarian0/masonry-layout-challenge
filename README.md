@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend
 
-## Getting Started
+### Context
 
-First, run the development server:
+We need to build a simple webpage following a design like the following screenshot, which features the "[Masonry Layout](https://www.sitepoint.com/understanding-masonry-layout/)". See the [Figma link](https://www.figma.com/file/MGrnRE8jfCl9lU1UmqOQBg/Wiredcraft-Front-End-Test-Mockup) for the design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image](https://user-images.githubusercontent.com/919180/151288872-f5f418d1-8326-4b50-9b0b-5ecc624683e1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. It should load a list of picture URLs from a JSON API. Please use the JSON file below as a sample, and build a simple API to serve it.
+2. It should apply [Masonry Layout](https://www.sitepoint.com/understanding-masonry-layout/). See the link for the definition and feature list.
+3. It should provide a search input, and allow the users to search images with the "name" attribute. The search input should work as a filter and automatically filters with the user input.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+{% file src="../.gitbook/assets/data.json.zip" caption="Data Source JSON file" %}
 
-## Learn More
+or download the data.json directly from this repo.
 
-To learn more about Next.js, take a look at the following resources:
+### Tech stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Use **React**, and optionally React-router.
+* Use a state management tool. We often use Redux or MobX.
+* Use **SASS** or **Less** for CSS.
+* We are open to other 3rd-party tools but please limit the use - it's a test for you to demonstrate your skill after all.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Advanced requirements
 
-## Deploy on Vercel
+_Here are some further challenges for you to demonstrate your skills. You can safely skip them if you are not applying as a senior._
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Make it responsive.
+* Feature "Lazy-loading".
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
