@@ -1,4 +1,4 @@
-# Frontend
+# Masonry Layout - Wiredcraft Frontend Challenge
 
 The challenge can be found on this [link](https://github.com/Wiredcraft/test-frontend).
 The challenge is build a simple webpage following [Masonry Layout](https://www.sitepoint.com/understanding-masonry-layout/)
